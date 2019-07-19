@@ -1,5 +1,11 @@
 <template>
   <section class="section">
+    <Form method="POST" netlify>
+      <input
+        name="name"
+        type="name"
+      />
+    </Form>
     <div class="columns is-mobile">
       <card
         title="Free"
